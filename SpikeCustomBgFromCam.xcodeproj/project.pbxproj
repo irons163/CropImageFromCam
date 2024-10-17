@@ -16,6 +16,11 @@
 		D16690082976FFCA004E7FD0 /* SpikeCustomBgFromCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16690072976FFCA004E7FD0 /* SpikeCustomBgFromCamTests.swift */; };
 		D16690122976FFCA004E7FD0 /* SpikeCustomBgFromCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16690112976FFCA004E7FD0 /* SpikeCustomBgFromCamUITests.swift */; };
 		D16690142976FFCA004E7FD0 /* SpikeCustomBgFromCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16690132976FFCA004E7FD0 /* SpikeCustomBgFromCamUITestsLaunchTests.swift */; };
+		D1669025297840B3004E7FD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1669023297840B3004E7FD0 /* ProfileViewController.swift */; };
+		D1669026297840B3004E7FD0 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1669024297840B3004E7FD0 /* ProfileViewController.xib */; };
+		D16690282978CB72004E7FD0 /* ImageCropHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16690272978CB72004E7FD0 /* ImageCropHelper.swift */; };
+		D166902B2978D30D004E7FD0 /* CroppedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16690292978D30D004E7FD0 /* CroppedImageViewController.swift */; };
+		D166902C2978D30D004E7FD0 /* CroppedImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D166902A2978D30D004E7FD0 /* CroppedImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D166900D2976FFCA004E7FD0 /* SpikeCustomBgFromCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpikeCustomBgFromCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16690112976FFCA004E7FD0 /* SpikeCustomBgFromCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpikeCustomBgFromCamUITests.swift; sourceTree = "<group>"; };
 		D16690132976FFCA004E7FD0 /* SpikeCustomBgFromCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpikeCustomBgFromCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1669023297840B3004E7FD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D1669024297840B3004E7FD0 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		D16690272978CB72004E7FD0 /* ImageCropHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropHelper.swift; sourceTree = "<group>"; };
+		D16690292978D30D004E7FD0 /* CroppedImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroppedImageViewController.swift; sourceTree = "<group>"; };
+		D166902A2978D30D004E7FD0 /* CroppedImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CroppedImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,12 @@
 			children = (
 				D1668FF02976FFC8004E7FD0 /* AppDelegate.swift */,
 				D1668FF22976FFC8004E7FD0 /* SceneDelegate.swift */,
+				D16690272978CB72004E7FD0 /* ImageCropHelper.swift */,
 				D1668FF42976FFC8004E7FD0 /* ViewController.swift */,
+				D16690292978D30D004E7FD0 /* CroppedImageViewController.swift */,
+				D166902A2978D30D004E7FD0 /* CroppedImageViewController.xib */,
+				D1669023297840B3004E7FD0 /* ProfileViewController.swift */,
+				D1669024297840B3004E7FD0 /* ProfileViewController.xib */,
 				D1668FF62976FFC8004E7FD0 /* Main.storyboard */,
 				D1668FF92976FFCA004E7FD0 /* Assets.xcassets */,
 				D1668FFB2976FFCA004E7FD0 /* LaunchScreen.storyboard */,
@@ -233,7 +248,9 @@
 			files = (
 				D1668FFD2976FFCA004E7FD0 /* LaunchScreen.storyboard in Resources */,
 				D1668FFA2976FFCA004E7FD0 /* Assets.xcassets in Resources */,
+				D1669026297840B3004E7FD0 /* ProfileViewController.xib in Resources */,
 				D1668FF82976FFC8004E7FD0 /* Main.storyboard in Resources */,
+				D166902C2978D30D004E7FD0 /* CroppedImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +277,9 @@
 			files = (
 				D1668FF52976FFC8004E7FD0 /* ViewController.swift in Sources */,
 				D1668FF12976FFC8004E7FD0 /* AppDelegate.swift in Sources */,
+				D166902B2978D30D004E7FD0 /* CroppedImageViewController.swift in Sources */,
+				D16690282978CB72004E7FD0 /* ImageCropHelper.swift in Sources */,
+				D1669025297840B3004E7FD0 /* ProfileViewController.swift in Sources */,
 				D1668FF32976FFC8004E7FD0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

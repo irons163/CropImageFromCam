@@ -3,7 +3,6 @@
 //  SpikeCustomBgFromCamUITests
 //
 //  Created by Phil Chang on 2023/1/18.
-//  Copyright © 2023 Yahoo. All rights reserved.
 //        
 
 import XCTest
